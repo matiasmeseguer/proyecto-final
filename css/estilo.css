@@ -1,0 +1,124 @@
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.enlaces{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1{color: aqua;}
+
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.fotoInicio{
+    width: 100%;
+    height: 400px;
+}
+.tiraAsado{
+    width: 300px;
+    height: 200px;
+}
+.encabezado{
+    border: 5px black solid;
+    padding: 10px;
+}
+.productoAsado{
+    border: 5px black solid;
+    width: 300px;
+    height: 400px;
+}
+.tira{
+    text-align: center;
+    font-size: 2.5vw;
+
+}
+
+.carrito{
+    align-items: flex-end;
+    width: 70px;
+    height: 50px;
+}
+.productoAsado{
+    display: flex;
+    flex-wrap: wrap;
+}
+*
+
+.destacados{
+  width: 100%;
+  font-size: 300%;
+  color: red;
+text-align: center;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.caja{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 0, 0);
+  border: 3px rgb(0, 0, 0) solid;
+  width: 32%;
+  border-radius: 5%;
+  margin: 0.3%;
+}
+.imagen{
+  width: 100%;
+  border-radius: 5%;
+}
+.precio{
+display: inline;
+}
+.agregar{
+  background-color: green;
+  border-radius: 40%; 
+  text-decoration: none;
+  font-size: 150%;
+}
+.nombre{
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 200%;
+  height: 5%;
+}
+.pya{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5%;
+}
+.cantidad{
+  width: 12%;
+}
+.cyp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5%;
+}
+.contacto{
+  border: black solid 4px;
+  border-radius: 4px;
+ width: 23%;
+  margin-left: 40%;
+}
+footer{
+  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 10%;
+}
+  
+
