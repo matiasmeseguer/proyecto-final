@@ -6,36 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contactanos</title>
     <link rel="stylesheet" href="css/estilo.css">
+    
 </head>
 <body>
 
-    <header class="encabezado">
-        <img src="img/LOGO SANTA.jpg" alt="logo carniceria" class="logo">
-        <nav class="enlaces">
-            
-                <a href="index.html" target="inicio" >inicio</a>
-                <a href="productos.html" target="productos" >productos</a>
-                <a href="envios.html" target="envios" >envios</a>
-                <a href="quienes-somos.html" target="quienes somos" >quienes somos</a>
-                <a href="contacto.html" target="contacto" >contacto</a>
-            
+    <header>
+        <img class="icono" src="img/LOGO SANTA.jpg" alt="foto">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <input type="checkbox" id="check">
+        <nav class="menu">
+            <a href="index.html" target="inicio" >inicio</a>
+            <a href="productos.html" target="productos" >productos</a>
+            <a href="envios.html" target="envios" >envios</a>
+            <a href="quienes-somos.html" target="quienes somos" >quienes somos</a>
+            <a href="contacto.html" target="contacto" >contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
         </nav>
     </header>
 
 <h1 class="destacados">ponete en contacto</h1>
 
 <form class="contacto">
-    <label for="nombre y apellido">nombre y apellido</label>
-    <input type="text" id="nombre y apellido">
+    <label for="nombre y apellido">nombre y apellido  </label>
+    <input type="text" id="nombre y apellido" class="cuadro">
 <br><br>
-    <label for="edad">edad</label>
-    <input type="text" id="edad">
+    <label for="edad">edad  </label>
+    <input type="text" id="edad" class="cuadro">
     <br><br>
-    <label for="email">email</label>
-    <input type="email" id="email">
+    <label for="email">email  </label>
+    <input type="email" id="email" class="cuadro">
     <br><br>
-    <label for="comentario">comentario</label>
-    <input type="text" id="comentario">
+    <label for="comentario">comentario  </label>
+    <input type="text" id="comentario" class="cuadro">
     <br><br>
   <input type="submit">
   <input type="reset">
@@ -52,7 +58,5 @@
 </footer>
 
 
-
-    
 </body>
 </html>
